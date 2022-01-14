@@ -1,0 +1,92 @@
+.cabecalho{
+   display: grid;
+   grid-template-columns: auto 1fr ;
+  background-image: url("../img/agoraVai.png");
+  height:550px;
+  object-fit: fill;
+}
+.cabecalho_logo{
+margin-left: 220px;
+padding: 40px;
+width: 28%;
+}
+.cabecalho_navegacao{
+   display:flex;
+   gap: 50px;
+   justify-content: center;
+   color: white;
+   font-family: "Poppins";
+   font-size: 1.6rem;
+   margin-top: 60px;
+   margin-right: 70px;
+}
+.titulo{
+   font-family: "Poppins";
+   font-size: 4.5rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 40px;
+   font-weight: 500;
+   letter-spacing:2px ;
+   margin-top: 30px;
+}
+.sessao-section1{
+   position: relative;
+   top: -450px;
+   color: white;
+   
+}
+.sessao{
+   margin-top: 130px;
+   width: 100%;
+   display: inline-block;
+   justify-content: center;
+   background: #DFE3F5;
+   padding: 10px;
+   
+}
+.img-section{
+   display: block;
+   margin-left: auto;
+   margin-right: auto ;
+   margin-bottom: 15px;
+   width: 650px;
+   padding: 15px;
+   
+}
+.titulo-destaque{
+   text-align: center;
+   font-size: 2.5rem;
+   color: black;
+}
+.subtitulo{
+   text-align: center;
+   font-size: 2rem;
+   padding: 10px;
+   color: black;
+}
+
+.paragrafo-header{
+   max-width: 65ch;
+   font-family:"Open Sans";
+   font-size: 1.6rem;
+   line-height: 34px;
+   letter-spacing:0.5px ;
+   text-align: center;
+  margin-left: 599px;
+  margin-bottom: 50px;
+}
+.botao{
+   width: 400px;
+   height: 60px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto ;
+   color: white;
+   background: url();
+   border:1px solid white;
+   border-radius: 5px;
+   font-size: 1.3rem;
+   cursor: pointer;
+
+}
